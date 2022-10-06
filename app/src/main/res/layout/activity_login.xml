@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#91CF6A">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="297dp"
+        android:layout_height="108dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.171"
+        app:srcCompat="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="379dp"
+        android:layout_height="258dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.302">
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/ingrese_email"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Ingrese su password"
+            android:inputType="textPassword"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingresar" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrarse" />
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        tools:layout_editor_absoluteX="311dp"
+        tools:layout_editor_absoluteY="752dp" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="676dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
