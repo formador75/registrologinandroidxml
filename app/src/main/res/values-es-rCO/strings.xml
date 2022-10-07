@@ -1,5 +1,5 @@
-<resources>
-    <string name="app_name">My Application</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources> <string name="app_name">My Application</string>
     <string name="ingrese_email">Por favor ingrese su email</string>
     <string name="ingrese_email1">Por favor ingrese su email</string>
     <string name="ingrese_email2">Por favor ingrese su email</string>
